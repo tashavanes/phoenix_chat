@@ -1,0 +1,24 @@
+<div class="jumbotron">
+  <h2><%= gettext "LightChat"%></h2><i class="fa fa-comments fa-3x" aria-hidden="true"></i>
+  <p class="lead">A new simple chat app</p>
+</div>
+
+<div class="row">
+  <div class="col-md-4 alert alert-info">
+    Hello, <span id="User"><%= @current_user.name %></span>.
+  </div>
+  <div class="col-md-9">
+    <h2>Messages</h2>
+    <ul id="MessageList" class="list-unstyled" style="height: 500px; border: 1px solid #ccc; overflow-y: auto; padding: 20px"></ul>
+    <div>Your message:<p></div>
+    <input type="text" id="NewMessage" placeholder="Type and press enter..." class="form-control"><br>
+    <div><%= link "Log out", to: session_path(@conn, :delete), method: "delete" %></div>
+  </div>
+  
+  <div class="col-md-3">
+    <h2>Online</h2>
+    <ul id="UserList" class="list-unstyled">
+      <li>Loading online users...</li>
+    </ul>
+  </div>
+</div>

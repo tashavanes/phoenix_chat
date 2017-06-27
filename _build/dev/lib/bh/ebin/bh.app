@@ -1,0 +1,12 @@
+{application,bh,
+             [{description,"Twitter Bootstrap 4 and Bootstrap 3 helpers for Phoenix.\n"},
+              {modules,['Elixir.Bh','Elixir.Bh.Bh3.Alert',
+                        'Elixir.Bh.Bh3.Badge','Elixir.Bh.Bh3.Button',
+                        'Elixir.Bh.Bh3.Icon','Elixir.Bh.Bh3.Label',
+                        'Elixir.Bh.Bh3.Panel','Elixir.Bh.Bh3.Progress',
+                        'Elixir.Bh.Bh4.Alert','Elixir.Bh.Bh4.Button',
+                        'Elixir.Bh.Bh4.Label','Elixir.Bh.Bh4.Modal',
+                        'Elixir.Bh.Bh4.Progress','Elixir.Bh.Service']},
+              {registered,[]},
+              {vsn,"0.0.14"},
+              {applications,[kernel,stdlib,elixir,logger]}]}.

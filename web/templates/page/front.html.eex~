@@ -1,0 +1,7 @@
+<div class="jumbotron">
+  <h2><%= gettext "LightChat"%></h2><i class="fa fa-comments fa-3x" aria-hidden="true"></i>
+  <p class="lead">A new simple chat app</p>
+</div>
+<div><%= @current_user.name %></div>
+<div>New here? Would you like to <a href="http://titanium.51percent.tech:8080/registrations/new">register to chat?</a><p></div>
+<div>Or, go ahead and <a href="http://titanium.51percent.tech:8080/sessions/new">Login</a></div>

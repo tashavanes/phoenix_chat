@@ -1,0 +1,12 @@
+{application,timex_ecto,
+             [{description,"timex_ecto"},
+              {modules,['Elixir.Ecto.DataType.Timex.Date',
+                        'Elixir.Ecto.DataType.Timex.DateTime',
+                        'Elixir.Timex.Ecto','Elixir.Timex.Ecto.Date',
+                        'Elixir.Timex.Ecto.DateTime',
+                        'Elixir.Timex.Ecto.DateTimeWithTimezone',
+                        'Elixir.Timex.Ecto.Time',
+                        'Elixir.Timex.Ecto.Timestamps']},
+              {registered,[]},
+              {vsn,"1.1.3"},
+              {applications,[kernel,stdlib,elixir,logger,ecto,timex]}]}.
